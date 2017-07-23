@@ -1,6 +1,6 @@
 module ApplicationHelper
 
-  def return_full_title_for_page(page_title = '')
+  def full_title(page_title = '')
     base_title = "My Twitter App"
     if page_title.empty?
       base_title
